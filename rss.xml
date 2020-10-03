@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>RyanDang 的个人博客</title>
+    <link>https://xinjiedang.github.io</link>
+    <atom:link href="https://xinjiedang.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <description>记录精彩的程序人生</description>
+    <generator>Solo, v4.3.1, https://b3log.org/solo</generator>
+    <lastBuildDate>Sat, 03 Oct 2020 16:20:31 +0800</lastBuildDate>
+    <language>zh-cn</language>
+    <item>
+      <title>java 学习开始</title>
+      <link>https://xinjiedang.github.io/articles/2020/09/26/1601113479159.html</link>
+      <description><![CDATA[<p>个人java学习逐鹿</p>]]></description>
+      <author>RyanDang</author>
+      <guid>https://xinjiedang.github.io/articles/2020/09/26/1601113479159.html</guid>
+      <category>java</category>
+      <pubDate>Sat, 26 Sep 2020 17:44:54 +0800</pubDate>
+    </item>
+  </channel>
+</rss>
