@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
-    <title>RyanDang 的个人博客</title>
+    <title>RyanDang</title>
     <link>https://xinjiedang.github.io</link>
     <atom:link href="https://xinjiedang.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-    <description>记录精彩的程序人生</description>
+    <description/>
     <generator>Solo, v4.3.1, https://b3log.org/solo</generator>
-    <lastBuildDate>Sat, 03 Oct 2020 16:20:31 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2020 17:06:34 +0800</lastBuildDate>
     <language>zh-cn</language>
+    <item>
+      <title>java web 开发</title>
+      <link>https://xinjiedang.github.io/articles/2020/10/03/1601714553289.html</link>
+      <description><![CDATA[<p><strong>简单的java web入门</strong></p>
+<p>必学知识 jsp servlet</p>]]></description>
+      <author>RyanDang</author>
+      <guid>https://xinjiedang.github.io/articles/2020/10/03/1601714553289.html</guid>
+      <category>java</category>
+      <pubDate>Sat, 03 Oct 2020 17:04:21 +0800</pubDate>
+    </item>
+    <item>
+      <title>solo 博客起点</title>
+      <link>https://xinjiedang.github.io/articles/2020/10/03/1601713903119.html</link>
+      <description/>
+      <author>RyanDang</author>
+      <guid>https://xinjiedang.github.io/articles/2020/10/03/1601713903119.html</guid>
+      <category>java</category>
+      <pubDate>Sat, 03 Oct 2020 16:33:09 +0800</pubDate>
+    </item>
     <item>
       <title>java 学习开始</title>
       <link>https://xinjiedang.github.io/articles/2020/09/26/1601113479159.html</link>
