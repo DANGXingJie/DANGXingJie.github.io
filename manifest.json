@@ -3,10 +3,10 @@
     "theme_color": "#1fb5ad",
     "background_color": "#f1f2f7",
     "display": "standalone",
-    "name": "RyanDang",
+    "name": "DangXingJie",
     "start_url": ".",
-    "description": "",
-    "short_name": "RyanDang",
+    "description": "日月既往，不可复追",
+    "short_name": "DangXingJie",
     "icons": [
         {
             "sizes": "48x48",
