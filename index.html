@@ -1,204 +1,67 @@
 <!DOCTYPE html>
-<html lang=en>
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:description" content="">
-    <meta property="og:type" content="website">
-    <meta name="description" content="">
-    <meta name="keyword"  content="">
-    <link rel="shortcut icon" href="/img/favicon.ico">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grand Luxury Interactive Christmas Tree</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;700&display=swap');
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #020403; /* Deepest Green/Black */
+        color: #f1f1f1;
+        font-family: 'Playfair Display', serif;
+        overflow: hidden;
+      }
+      
+      /* Custom scrollbar for webkit */
+      
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #000; 
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        background: #D4AF37; 
+      }
+      
+      /* Shimmer Animation */
+      
+      @keyframes shimmer {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(100%); }
+      }
+      
+      .animate-shimmer {
+        animation: shimmer 2s infinite;
+      }
+    </style>
 
-    <title>
-        
-        
-        
-    </title>
-
-    <!-- Custom CSS -->
-    
-<link rel="stylesheet" href="/css/aircloud.css">
-
-    
-<link rel="stylesheet" href="/css/gitment.css">
-
-    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
-    <link href="//at.alicdn.com/t/font_620856_28hi1hpxx24.css" rel="stylesheet" type="text/css">
-    <!-- ga & ba script hoook -->
-    <script></script>
-
-    
-
-
-
-
-
-
-
-
-
-<meta name="generator" content="Hexo 7.3.0"></head>
-
-<body>
-
-<div class="site-nav-toggle" id="site-nav-toggle">
-    <button>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-        <span class="btn-bar"></span>
-    </button>
-</div>
-
-<div class="index-about">
-    <i>  </i>
-</div>
-
-<div class="index-container">
-    
-    <div class="index-left">
-        
-<div class="nav" id="nav">
-    <div class="avatar-name">
-        <div class="avatar ">
-            <img src="/" />
-        </div>
-        <div class="name">
-            <i>DANGXingJie</i>
-        </div>
-    </div>
-    <div class="contents" id="nav-content">
-        <ul>
-            <li  class=active >
-                <a href="/">
-                    <i class="iconfont icon-shouye1"></i>
-                    <span>HOME</span>
-                </a>
-            </li>
-            <li >
-                <a href="/tags">
-                    <i class="iconfont icon-biaoqian1"></i>
-                    <span>TAGS</span>
-                </a>
-            </li>
-            <li >
-                <a href="/archives">
-                    <i class="iconfont icon-guidang2"></i>
-                    <span>ARCHIVES</span>
-                </a>
-            </li>
-            <li >
-                <a href="/collect/">
-                    <i class="iconfont icon-shoucang1"></i>
-                    <span>COLLECT</span>
-                </a>
-            </li>
-            <li >
-                <a href="/about/">
-                    <i class="iconfont icon-guanyu2"></i>
-                    <span>ABOUT</span>
-                </a>
-            </li>
-            
-        </ul>
-    </div>
-    
-</div>
-
-
-<div class="search-field" id="search-field">
-    <div class="search-bg" id="search-bg"></div>
-    <div class="search-container">
-        <div class="search-input">
-            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
-            <input id="search-input"/>
-            <span id="begin-search">search</span>
-        </div>
-        <div class="search-result-container" id="search-result-container">
-
-        </div>
-    </div>
-</div>
-
-        <div class="index-about-mobile">
-            <i>  </i>
-        </div>
-    </div>
-    
-    <div class="index-middle">
-        <!-- Main Content -->
-        
-<div class="post-preview-container" style="min-height: 720px">
-    
-    <div class="post-preview">
-        <div class="post-time">2025-01-10</div>
-        <div class="post-info">
-            <a href="http://example.com/2025/01/10/hello-world/">
-                <h3>
-                    Hello World
-                </h3>
-            </a>
-            <p>
-                
-            </p>
-        </div>
-    </div>
-    
-</div>
-<ul class="pager">
-    
-    
-</ul>
-
-    </div>
-</div>
-
-
-<footer class="footer">
-    <ul class="list-inline text-center">
-        
-        
-
-        
-
-        
-
-        
-
-        
-
-    </ul>
-    
-    <p>
-        <span id="busuanzi_container_site_pv">
-            <span id="busuanzi_value_site_pv"></span>PV
-        </span>
-        <span id="busuanzi_container_site_uv">
-            <span id="busuanzi_value_site_uv"></span>UV
-        </span>
-        Created By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>  Theme <a target="_blank" rel="noopener" href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
-</footer>
-
-
-
-
-</body>
-
-<script>
-    // We expose some of the variables needed by the front end
-    window.hexo_search_path = ""
-    window.hexo_root = "/"
-    window.isPost = false
+<link rel="stylesheet" href="/index.css">
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react/jsx-runtime": "https://esm.sh/react@18.3.1/jsx-runtime",
+    "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "three": "https://esm.sh/three@0.160.0",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.16.8?external=react,react-dom,three",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@9.108.3?external=react,react-dom,three,@react-three/fiber",
+    "@react-three/postprocessing": "https://esm.sh/@react-three/postprocessing@2.16.2?external=react,react-dom,three,@react-three/fiber",
+    "uuid": "https://esm.sh/uuid@9.0.1"
+  }
+}
 </script>
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-
-<script src="/js/index.js"></script>
-
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-
-
-
-
-
+  <script type="module" crossorigin src="/assets/index-BYSQA9ID.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
 </html>
